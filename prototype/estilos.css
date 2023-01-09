@@ -1,0 +1,17 @@
+.centro{
+    text-align: center;
+}
+
+.índice{
+    max-width: 500px;
+    float: left;
+}
+
+.artículo{
+    margin-left: 300px;
+    float: left;
+}
+
+.line{
+    color: rgb(209, 0, 0);
+}
