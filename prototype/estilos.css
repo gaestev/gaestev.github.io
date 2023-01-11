@@ -1,12 +1,11 @@
 body{
-    background-color: rgb(182, 182, 233);
-}
-.centro{
-    text-align: center;
+    background-color: rgb(212, 212, 223);
+    font-family: 'Lato', sans-serif;
 }
 
+
 .índice{
-    max-width: 500px;
+
     float: left;
 }
 
@@ -34,5 +33,34 @@ body{
 
 .títuloSección{
     font-family: 'Exo 2', sans-serif;
+    border-bottom: 3px rgb(40, 40, 109) solid;
+    color: rgb(40, 40, 109);
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
 
+.tiempo{
+text-align: center;
+margin-bottom: 0px;
+font-weight: bold;
+color:rgb(81, 81, 114);
+}
+
+.títuloSubSección{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.subTítuloSubSección{
+    text-align: center;
+    font-family: 'Exo 2', light;
+    color: rgb(114, 109, 148);
+}
+
+.cuadro{
+    background-color: rgb(249, 249, 253);
+    border-radius: 12px;
+    padding: 5px;
+    margin: 10px;
 }
