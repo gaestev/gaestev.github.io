@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(182, 182, 233);
+}
 .centro{
     text-align: center;
 }
@@ -12,7 +15,24 @@
     float: left;
 }
 
-.line{
-    color: rgb(209, 0, 0);
+
+.título{
+    font-family: 'Rowdies', cursive;
+    color: rgb(40, 40, 109);
+    font-size: 50px;
+    margin-bottom: 0px;
 }
 
+.letraChica{
+    margin: 0px;
+    margin-left: 8px;
+    font-family: 'Exo 2', light;
+    font-style: italic;
+    color: rgb(21, 21, 53);
+    font-size: 20px;
+}
+
+.títuloSección{
+    font-family: 'Exo 2', sans-serif;
+
+}
