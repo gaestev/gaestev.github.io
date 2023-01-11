@@ -39,6 +39,10 @@ body{
     padding-bottom: 5px;
 }
 
+.títuloSección:hover{
+    opacity: 0.5;
+}
+
 .tiempo{
 text-align: center;
 margin-bottom: 0px;
@@ -63,4 +67,8 @@ color:rgb(81, 81, 114);
     border-radius: 12px;
     padding: 5px;
     margin: 10px;
+}
+
+img{
+    float: top;
 }
