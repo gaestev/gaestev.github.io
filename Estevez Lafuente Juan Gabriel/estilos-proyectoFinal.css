@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(166, 166, 228);
+}
+
+header {
+    top: 0;
+    position: sticky;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+img {
+    border-radius: 5%;
+    max-width: 500px;
+    height: auto;
+    float: left;
+  }
+
+.textoPortada {
+    float: left;
+    max-width: 500px;
+    padding: 50px;
+}

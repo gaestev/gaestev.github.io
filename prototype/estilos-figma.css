@@ -2,6 +2,12 @@ body{
     background-color: #dddbe8;
     font-family: 'Lato', sans-serif;
 }
+@media screen and (max-width :700px) {
+   .rec1{
+    width: 50%;
+    height 25%;
+   }
+}
 /*rectangle*/
 .rec1{
     box-sizing: border-box;
