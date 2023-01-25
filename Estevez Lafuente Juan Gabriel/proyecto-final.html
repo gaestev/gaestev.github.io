@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="/Estevez Lafuente Juan Gabriel/estilos-proyectoFinal.css">
 </head>
 <body>
-    <header><!--
-        <div>
-            <button class="navegación">
-                +
-                    Links ancla
-                    + Acerca de mí
-                    + Información Personal
-                    + Experiencia Laboral
-                    + Educación
-                    + Habilidades
-                
-            </button>
-        </div>-->
+    <header>
+        <div class="menú">
+            <button onclick="abrirMenu()" class="navegación">+</button>
+            <script src="/Estevez Lafuente Juan Gabriel/proyecto-final.js"></script>
+            <div id="menuDesplegable" class="contenido">
+                <ul>
+                    <li><a href="#acercaDeMi">Acerca de mí</a>
+                    <li><a href="#">Información Personal</a>
+                    <li><a href="#">Experiencia Laboral</a>
+                    <li><a href="#educación">Educación</a>
+                    <li><a href="#">Habilidades</a>
+                </ul>
+            </div>    
+        </div>
         <h1 class="títuloPrincipal">Gabriel Estévez</h1>
     </header>
     <article>
-        <section class="sección">
+        <section class="sección" id="acercaDeMi">
             <div class="contenedorFoto">
                 <img src="/Curso prueba/imagenes/crash.jpg" alt="FotoCV" class="fotoCV">
                
@@ -85,7 +86,7 @@
                 </ul>
             </div>
         </section>
-        <section class="sección">
+        <section class="sección" id="educación">
             <!--educación-->
             <h2>Educación<h2>
                 <div class="datos">

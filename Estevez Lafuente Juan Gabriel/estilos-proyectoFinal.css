@@ -1,3 +1,16 @@
+.menu{
+    position: absolute;
+}
+
+.contenido{
+    display: none;
+}
+
+.mostrar{display: block;}
+
+.títuloPrincipal{
+    position: relative;
+}
 
 header {
     top: 0;
