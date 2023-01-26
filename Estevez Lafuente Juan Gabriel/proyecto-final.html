@@ -9,24 +9,27 @@
 </head>
 <body>
     <header>
-        <div class="menú">
-            <button onclick="abrirMenu()" class="navegación">+</button>
-            <script src="/Estevez Lafuente Juan Gabriel/proyecto-final.js"></script>
-            <div id="menuDesplegable" class="contenido">
-                <ul>
-                    <li><a href="#acercaDeMi">Acerca de mí</a>
-                    <li><a href="#">Información Personal</a>
-                    <li><a href="#">Experiencia Laboral</a>
-                    <li><a href="#educación">Educación</a>
-                    <li><a href="#">Habilidades</a>
-                </ul>
-            </div>    
+        <div>
+            <div class="menú">
+                <button onclick="abrirMenu()" class="navegación">+</button>
+                <script src="/Estevez Lafuente Juan Gabriel/proyecto-final.js"></script>
+                <div id="menuDesplegable" class="contenido">
+                    <ul>
+                        <li><a href="#acercaDeMi">Acerca de mí</a>
+                        <li><a href="#">Información Personal</a>
+                        <li><a href="#">Experiencia Laboral</a>
+                        <li><a href="#educación">Educación</a>
+                        <li><a href="#">Habilidades</a>
+                    </ul>
+                </div>    
+            </div>
+            <h1 class="títuloPrincipal">Gabriel Estévez</h1>
         </div>
-        <h1 class="títuloPrincipal">Gabriel Estévez</h1>
     </header>
     <article>
         <section class="sección" id="acercaDeMi">
             <div class="contenedorFoto">
+                <h2 class="títuloSección">Acerca de mí</h2>
                 <img src="/Curso prueba/imagenes/crash.jpg" alt="FotoCV" class="fotoCV">
                
                 <div class="textoPortada">
@@ -71,16 +74,16 @@
             <!--experiencia laboral previa-->
             <h2 class="títuloSección">Experiencia Laboral</h2>
             <div class="datos">
-                <p>2022</p>
-                <p>North Star - English School</p>
-                <ul>
+                <p class="tiempo">2022</p>
+                <h3 class="subTítulo">North Star - English School</h3>
+                <ul class="datosMenores">
                     <li>Profesor de Inglés</li>
                 </ul>
             </div>
             <div class="datos">
-                <p>2020 - 2021</p>
-                <p>Estudio de Arquitectura Christian Lafuente</p>
-                <ul>
+                <p class="tiempo">2020 - 2021</p>
+                <h3 class="subTítulo">Estudio de Arquitectura Christian Lafuente</h3>
+                <ul class="datosMenores">
                     <li>Community Manager</li>
                     <li>Asistente Privado</li>
                 </ul>
@@ -88,23 +91,23 @@
         </section>
         <section class="sección" id="educación">
             <!--educación-->
-            <h2>Educación<h2>
+            <h2 class="títuloSección">Educación<h2>
                 <div class="datos">
                     <p class="tiempo">Actual</p>
-                    <h3 class="títuloSubSección">Traductor nacional público de Inglés</h3>
-                    <p class="subTítuloSubSección">UNC - Universidad Nacional de Córdoba</p>
+                    <h3 class="subTítulo">Traductor nacional público de Inglés</h3>
+                    <p class="datosMenores">UNC - Universidad Nacional de Córdoba</p>
                 </div>
                 <hr noshade >
                 <div class="datos">
                     <p class="tiempo">2016</p>
-                    <h3 class="títuloSubSección">Bachiller</h3>
-                    <p class="subTítuloSubSección">Instituto superior de comercio</p>
+                    <h3 class="subTítulo">Bachiller</h3>
+                    <p class="datosMenores">Instituto superior de comercio</p>
                 </div>
                 <hr noshade>
                 <div class="datos">
-                    <p >2016</p>
-                    <h3 >First Certificate</h3>
-                    <p >Cambridge</p>
+                    <p class="tiempo">2016</p>
+                    <h3 class="subTítulo">First Certificate</h3>
+                    <p class="datosMenores">Cambridge</p>
                 </div>
         </section>
         <section class="sección">
