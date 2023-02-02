@@ -15,7 +15,7 @@
 .navegación{
     float: left;
     margin: 1em;
-    background-color: blueviolet;
+    background-color: rgb(187, 187, 187);
     border: 0;
 }
 .títuloSección{
@@ -102,7 +102,13 @@ body {
     font-weight: 300;
 }
 .icon{
-    width: 40px;
+    width: 30px;
+    height: auto;
+    
+}
+
+.íconoBotón{
+    width: 15px;
     height: auto;
     
 }
