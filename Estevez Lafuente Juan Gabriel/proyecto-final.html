@@ -7,12 +7,17 @@
     <title>CV - Proyecto final</title>
     <link rel="icon" href="/Estevez Lafuente Juan Gabriel/iconos/cv.png" type="image/x-icon">
     <link rel="stylesheet" href="/Estevez Lafuente Juan Gabriel/estilos-proyectoFinal.css">
+    <!--Tipografía título principal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <div>
             <div class="menú">
-                <button onclick="abrirMenu()" class="navegación">+<!-- Modificar a i y agregar font awesome<img src="/Estevez Lafuente Juan Gabriel/iconos/bars-solid.svg" alt="+" class="íconoBotón">--></button>
+                <button onclick="abrirMenu()" class="navegación">Menú</button>
                 <script src="/Estevez Lafuente Juan Gabriel/proyecto-final.js"></script>
                 <div id="menuDesplegable" class="contenido">
                     <ul>
@@ -29,44 +34,46 @@
     </header>
     <article>
         <section class="sección" id="acercaDeMi">
+            <h2 class="títuloSección">Acerca de mí</h2>
+            <hr noshade>
             <div class="contenedorFoto">
-                <h2 class="títuloSección">Acerca de mí</h2>
-                <img src="/Curso prueba/imagenes/crash.jpg" alt="FotoCV" class="fotoCV">
+                <img src="/Curso prueba/imagenes/crash.jpg" alt="FotoCV" class="fotoCV"><!--Revisar-->
                
-                <div class="textoPortada">
+                <div class="textoPortada"><!--Revisar, no funcionará bien-->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus, turpis a condimentum egestas, odio massa commodo lacus, eu venenatis lorem arcu nec sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ex nisi, gravida a arcu ac, sollicitudin eleifend enim. Duis et suscipit nulla. Curabitur iaculis sapien non sem semper, nec finibus velit malesuada. Proin ultricies, nibh id egestas volutpat, augue augue imperdiet quam, eget euismod dolor metus dapibus dui. Praesent rutrum lorem ac odio rutrum, a tempor nisi sagittis.
 
                     Proin eget elementum risus. Nulla ut fringilla felis. Suspendisse rhoncus rutrum diam, eu vulputate elit pellentesque gravida. Fusce sollicitudin odio sit amet mollis iaculis. Praesent eget iaculis lectus. Sed at nisi ex. Sed maximus, erat sit amet egestas porttitor, magna quam hendrerit ante, at aliquet odio turpis in dui. Sed purus nisi, luctus ac lacinia a, aliquet vitae tortor. Cras ut nisi augue. In eleifend magna cursus neque finibus vulputate. Nam viverra, libero vitae interdum facilisis, orci lectus porta tellus, nec suscipit libero tortor nec mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ac gravida justo. Proin mattis mi eu bibendum iaculis. Duis eu luctus ipsum. Suspendisse eget porttitor ante.</p>
                 </div>
             </div> 
         </section>
-        <section class="sección" id="infoPersonal">
+        <section class="sección" id="infoPersonal"> <!--Revisar-->
             <h2 class="títuloSección">Información Personal</h2>
+            <hr noshade>
             <table class="infoPersonal">
                 <tr>
-                <td class="datos">
+                <td>
                     <img src="/Estevez Lafuente Juan Gabriel/iconos/cake-candles-solid.svg" alt="ícono fecha de Nacimiento" class="icon">
-                    <p>Fecha de Nacimiento</p>
-                    <P>15 de Enero, 1997</P>
-                    <p>25 años</p>
+                    <p class="títuloDatos">Fecha de Nacimiento</p>
+                    <p class="datos">15 de Enero, 1997</p>
+                    <p class="datos">25 años</p>
                 </td>
-                <td class="datos">
+                <td>
                     <img src="/Estevez Lafuente Juan Gabriel/iconos/location.svg" alt="ícono ubicación" class="icon">
-                    <p>Dirección</p>
-                    <p>San Miguel 1011</p>
-                    <p>Río tercero, Córdoba Argentina</p>
+                    <p class="títuloDatos">Dirección</p>
+                    <p class="datos">San Miguel 1011</p>
+                    <p class="datos">Río tercero, Córdoba Argentina</p>
                 </td>
                 </tr>
                 <tr>
-                    <td class="datos">
+                    <td>
                         <img src="/Estevez Lafuente Juan Gabriel/iconos/phone-solid.svg" alt="ícono telefónico" class="icon">
-                        <p>Número telefónico</p>
-                        <p>3571614878</p>
+                        <p class="títuloDatos">Número telefónico</p>
+                        <p class="datos">3571614878</p>
                     </td>
-                    <td class="datos">
-                        <img src="/Estevez Lafuente Juan Gabriel/iconos/envelope-solid.svg" alt="icon" class="icon">
-                        <p>E-mail</p>
-                        <e-mail>gabrielestevezla@gmail.com</e-mail>
+                    <td>
+                        <img src="/Estevez Lafuente Juan Gabriel/iconos/envelope-solid.svg" alt="ícono email" class="icon">
+                        <p class="títuloDatos">E-mail</p>
+                        <e-mail class="datos">gabrielestevezla@gmail.com</e-mail>
                     </td>
                 </tr>
             </table>
@@ -74,6 +81,7 @@
         <section class="sección" id="xpLaboral">
             <!--experiencia laboral previa-->
             <h2 class="títuloSección">Experiencia Laboral</h2>
+            <hr noshade>
             <div class="datos">
                 <p class="tiempo">2022</p>
                 <h3 class="subTítulo">North Star - English School</h3>
@@ -93,18 +101,17 @@
         <section class="sección" id="educación">
             <!--educación-->
             <h2 class="títuloSección">Educación<h2>
+                <hr noshade >
                 <div class="datos">
                     <p class="tiempo">Actual</p>
                     <h3 class="subTítulo">Traductor nacional público de Inglés</h3>
                     <p class="datosMenores">UNC - Universidad Nacional de Córdoba</p>
-                </div>
-                <hr noshade >
+                </div>                
                 <div class="datos">
                     <p class="tiempo">2016</p>
                     <h3 class="subTítulo">Bachiller</h3>
                     <p class="datosMenores">Instituto superior de comercio</p>
                 </div>
-                <hr noshade>
                 <div class="datos">
                     <p class="tiempo">2016</p>
                     <h3 class="subTítulo">First Certificate</h3>
@@ -113,6 +120,7 @@
         </section>
         <section class="sección" id="habilidades">
             <h2 class="títuloSección">Habilidades</h2>
+            <hr noshade >
             <ul class="datos">
                 <li>Inglés avanzado</li>
                 <li>Microsoft Office (Word, Excel, etc.)</li>
