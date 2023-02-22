@@ -147,8 +147,6 @@ body {
     font-weight: 300;
 }
 .icon{
-    width: 30px;
-    height: 30px;
     /*filter: invert(100%);*/
     float: left;
     padding: .5em;
