@@ -59,12 +59,14 @@ header {
     position: sticky;
     background: transparent;
     backdrop-filter: blur(50px);
-    border-bottom: 2px rgb(109, 152, 134) solid;
+    border-bottom: 2px rgb(38, 10, 78) solid;
     width: 100%;
 }
 
 body {
-    background-color: rgb(138, 102, 102);
+    /*background-color: rgb(138, 102, 102);*/
+    background: rgb(33,5,46);
+    background: linear-gradient(0deg, rgba(33,5,46,1) 0%, rgba(66,24,125,1) 49%, rgba(149,115,237,1) 100%);
     margin: 0;
 }
 .contenedorFoto{
@@ -92,7 +94,7 @@ body {
 
 .sección{
     background-color: rgb(68, 66, 66);
-    border-radius: 2px; /*revisar*/
+    border-radius: 1em; /*revisar*/
     width: 60%;
     height: auto;
     margin-left: auto;
@@ -107,13 +109,14 @@ body {
 .infoPersonal{
     margin-left: auto;
     margin-right: auto;
-    width: 63%;
+    max-width: fit-content;
 }
 .contenedorInfo{
     padding: 1em;
     float: left;
     margin: 1em;
     background-color: rgb(68, 66, 66);
+    border-radius: 1em;
 }
 .contenedorInfo:hover{
     background-color: rgb(107, 106, 107);
@@ -174,3 +177,4 @@ body {
     max-height: 30px;
     width: auto;
 }
+
