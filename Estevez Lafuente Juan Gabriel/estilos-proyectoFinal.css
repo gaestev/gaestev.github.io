@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 
+/*Menú*/
 .menu{
     position: relative;
     display: inline-block;
@@ -32,14 +33,6 @@ body{
 
 .mostrar{display: block;}
 
-.títuloPrincipal{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2em;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    margin: 0 40% 0 40%;
-    text-align: center;
-}
 .navegación{
     float: left;
     margin: 1em;
@@ -51,6 +44,7 @@ body{
     font-size: .8em; 
 }
 
+/*Encabezado*/
 header{
     top: 0;
     position: sticky;
@@ -60,6 +54,15 @@ header{
     width: 100%;
 }
 
+.títuloPrincipal{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0 40% 0 40%;
+    text-align: center;
+}
+/*Estilos para el contenido de la página web*/
 #acercaDeMí{
     background-color: rgb(19, 4, 26);
     border-radius: 1em; 
@@ -185,7 +188,7 @@ header{
     float: left;
     padding: .5em;
 }
-
+/*Footer*/
 footer {
     border-top: 2px white solid;
     background-color: rgb(0, 0, 0);

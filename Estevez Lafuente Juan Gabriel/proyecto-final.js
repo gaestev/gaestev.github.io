@@ -1,4 +1,4 @@
-
+//Menú 
 function abrirMenu() {
     document.getElementById("menuDesplegable").classList.toggle("mostrar");
   }
@@ -15,7 +15,7 @@ function abrirMenu() {
       }
     }
   }
-
+//Portada
   window.onscroll = function() {seccionvariable()};
 
 function seccionvariable() {
