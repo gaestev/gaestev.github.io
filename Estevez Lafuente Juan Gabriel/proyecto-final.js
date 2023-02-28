@@ -15,3 +15,15 @@ function abrirMenu() {
       }
     }
   }
+
+  window.onscroll = function() {seccionvariable()};
+
+function seccionvariable() {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    document.getElementById("acercaDeMí").style.fontSize = "1em";
+    document.getElementById("acercaDeMí").style.width = "60%";
+  } else {
+    document.getElementById("acercaDeMí").style.fontSize = "2em";
+    document.getElementById("acercaDeMí").style.width = "90%";
+  }
+}
