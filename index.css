@@ -1,0 +1,220 @@
+body{
+    background: rgb(33,5,46);
+    background: linear-gradient(0deg, rgba(33,5,46,1) 0%, rgba(66,24,125,1) 49%, rgba(149,115,237,1) 100%);
+    margin: 0;
+}
+
+/*Menú*/
+.menu{
+    position: relative;
+    display: inline-block;
+}
+
+.contenido{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    padding: 10px;
+    margin: 10px
+}
+
+.contenido a{
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-family: 'Podkova', serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.mostrar{display: block;}
+
+.navegación{
+    float: left;
+    margin: 1em;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+    font-family: 'Podkova', serif;
+    font-weight: bold;
+    font-size: .8em; 
+}
+
+/*Encabezado*/
+header{
+    top: 0;
+    position: sticky;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border-bottom: 3px rgb(38, 10, 78) solid;
+    width: 100%;
+}
+
+.títuloPrincipal{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0 40% 0 40%;
+    text-align: center;
+}
+/*Estilos para el contenido de la página web*/
+#acercaDeMí{
+    background-color: rgb(19, 4, 26);
+    border-radius: 1em; 
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    clear: both;
+    font-size: 2em;
+    transition: 0.4s;
+}
+
+.contenedorFoto{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.fotoCV {
+    border-radius: 50%;
+    border: 3px solid white ;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    height: auto;
+}
+
+.títuloPortada {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: rgb(149,115,237);
+}
+
+.textoPortada{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 1em 0 1em;
+    clear: both;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.títuloSección{
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    color: rgb(149,115,237);
+}
+
+.sección{
+    background-color: rgb(19, 4, 26);
+    border-radius: 1em; 
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    clear: both;
+    scroll-margin-top: 3em;
+}
+
+.sección:hover{
+    background-color: rgb(41, 7, 56);
+}
+
+.infoPersonal{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    scroll-margin-top: 3em;
+}
+
+.contenedorInfo{
+    padding: 1em;
+    float: left;
+    margin: 1em;
+    background-color: rgb(19, 4, 26);
+    border-radius: 1em;
+}
+
+.contenedorInfo:hover{
+    background-color: rgb(41, 7, 56);
+}
+
+.títuloDatos{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(149,115,237);
+    margin: 1em;
+    text-align: center;
+}
+
+.datos{
+    font-family: 'Raleway', sans-serif;
+    padding: .5em;
+    clear: both;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.tiempo{
+    font-size: 1.5em;
+    color :rgb(184, 182, 182);
+}
+
+.subTítulo{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.datosMenores{
+    font-size: 1.5em;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.icon{
+    color: rgb(149,115,237);
+    float: left;
+    padding: .5em;
+}
+/*Footer*/
+footer {
+    border-top: 2px white solid;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    bottom: -2em;
+    margin-top: 1em;
+}
+
+.textoFooter {
+    color: white;
+    font-size: 1em;
+    font-family: 'Podkova', serif;
+    text-align: center;
+    padding: .5em;
+}
+.invertir{
+    filter: invert(100%);
+    max-height: 30px;
+    width: auto;
+    margin: 0;
+    padding: .5em;;
+}
+
+.redes{
+    font-size: 30px;
+    float: right;
+    margin: 0;
+    padding: .5em;
+}

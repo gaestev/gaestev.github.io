@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Proyecto final</title>
+    <!--Favicon-->
+    <link rel="icon" href="iconos/cv.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="index.css">
+    <!--Tipografías Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/32c945d545.js" crossorigin="anonymous"></script>
+    <!--Javascript-->
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div >
+            <!--Menú-->
+            <div class="menú">
+                <button onclick="abrirMenu()" class="navegación">Menú</button>
+                <div id="menuDesplegable" class="contenido">
+                    <ul>
+                        <li><a href="#acercaDeMí">Acerca de mí</a>
+                        <li><a href="#infoPersonal">Información Personal</a>
+                        <li><a href="#xpLaboral">Experiencia Laboral</a>
+                        <li><a href="#habilidades">Habilidades</a>
+                    </ul>
+                </div>    
+            </div>
+            <div>
+                <h1 class="títuloPrincipal">Thomas Hayes</h1>
+            </div>
+        </div>
+    </header>
+    <article>
+        <section id="acercaDeMí">
+            <!--Nombre y Fotografía extraída de randomuser.me-->
+            <div class="contenedorFoto">
+                <img src="imag/fotoperfil.jpg" alt="fotoCV" class="fotoCV">
+                <div>
+                    <h3 class="títuloPortada">Hola mundo! <br> Mi nombre es Thomas Hayes.</h3>
+                    <p class="textoPortada">Soy desarrollador Front End y estaría encantado de participar en un proyecto con vos!<br> Te invito a que veas más Información sobre mí debajo. <br> Happy coding!</p>
+                </div>
+            </div>
+        </section>
+        <section id="infoPersonal" class="infoPersonal" >
+            <!--Información extraída de randomuser.me-->
+            <div class="contenedorInfo">
+                <div class="icon">
+                    <i class="fa-solid fa-cake-candles fa-2xl"></i>
+                </div>
+            <p class="títuloDatos">Edad</p>
+            <p class="datos">41 años</p>
+            <p class="datos">1 de mayo, 1981</p>
+            </div>
+            <div class="contenedorInfo">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                </div>
+            <p class="títuloDatos">Donde vivo</p>
+            <p class="datos">Córdoba, Argentina</p>
+            </div>
+            <div class="contenedorInfo">
+                <div class="icon">
+                    <i class="fa-solid fa-address-card fa-2xl"></i>
+                </div>
+            <p class="títuloDatos">Contacto</p>
+            <p class="datos">(726) 641-1528</p>
+            <e-mail class="datos">thomas.hayes@example.com</e-mail>
+            </div>
+        </section>
+        <section class="sección" id="xpLaboral">
+            <!--Sección experiencia-->
+            <h2 class="títuloSección">Experiencia Laboral</h2>
+            <hr noshade>
+            <div class="datos">
+                <p class="tiempo">2023</p>
+                <h3 class="subTítulo">Google</h3>
+                <p class="datosMenores">Front End Developer</p>
+            </div>
+            <div class="datos">
+                <p class="tiempo">2021 - 2022</p>
+                <h3 class="subTítulo">Twitter</h3>
+                <ul class="datosMenores">
+                    <li>Community Manager</li>
+                    <li>Junior Coffee Bringer</li>
+                </ul>
+            </div>
+        </section>
+        <section class="sección" id="habilidades">
+            <!--Sección habilidades-->
+            <h2 class="títuloSección">Habilidades</h2>
+            <hr noshade>
+            <div class="datos">
+                <ul class="datosMenores">
+                    <li>Inglés avanzado</li>
+                    <li>Microsoft Office (Word, Excel, etc.)</li>
+                    <li>Adobe (Photoshop - Illustrator)</li>
+                    <li>Programación básica en C++ - HTML - CSS - Javascript</li>
+                </ul>
+            </div>           
+        </section>
+    </article>
+    <footer>
+        <!--Footer de la página-->
+        <img src="imag/argentina-programa.svg" alt="Logo Argentina Programa" class="invertir">
+        <div class="redes">
+            <a href="https://www.instagram.com/gaestev/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="textoFooter">
+            <span>Desarrollado por Gabriel Estévez - 2023 </span>
+        </div>
+    </footer>
+</body>
+</html>
